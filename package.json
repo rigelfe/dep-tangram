@@ -1,0 +1,14 @@
+{
+  "name": "tangram",
+  "version": "1.5.2",
+  "description": "tangram 1.5 for amd",
+  "main": "tangram",
+  "contributors": [
+    {
+      "name": "treelite",
+      "email": "c.xinle@gmail.com"
+    }
+  ],
+  "repository": "git://github.com/rigelfe/dep-tangram",
+  "readmeFilename": "README.md"
+}
