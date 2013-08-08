@@ -1,7 +1,7 @@
 {
-  "name": "dep-tangram",
+  "name": "tangram",
   "version": "1.5.2",
-  "description": "tangram 1.5 for amd",
+  "description": "tangram 1.5.2 wrap",
   "main": "dist/tangram.js",
   "contributors": [
     {
