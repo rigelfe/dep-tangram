@@ -1,8 +1,8 @@
 {
-  "name": "tangram",
+  "name": "dep-tangram",
   "version": "1.5.2",
   "description": "tangram 1.5 for amd",
-  "main": "tangram",
+  "main": "dist/tangram.js",
   "contributors": [
     {
       "name": "treelite",

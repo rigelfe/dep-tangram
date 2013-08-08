@@ -1,18 +1,18 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
-        dirs: {
+        info: {
+            name: 'tangram',
             src: 'src',
             dist: 'dist'
         },
         clean: {
-            all: ['<%= dirs.dist %>']
+            all: ['<%= info.dist %>']
         },
         uglify: {
             all: {
-                src: '<%= dirs.src %>/<%= pkg.name %>.js',
-                dest: '<%= dirs.dist %>/<%= pkg.name %>.js'
+                src: '<%= info.src %>/<%= info.name %>.js',
+                dest: '<%= info.dist %>/<%= info.name %>.js'
             }
         },
         zip: {
@@ -24,10 +24,10 @@ module.exports = function(grunt) {
                 src: [
                     'package.json', 
                     'README.md', 
-                    '<%= dirs.dist %>/<%= pkg.name %>.js'
+                    '<%= info.dist %>/<%= info.name %>.js'
                 ],
 
-                dest: '<%= pkg.name %>.zip'
+                dest: '<%= info.name %>.zip'
             }
         }
     });
